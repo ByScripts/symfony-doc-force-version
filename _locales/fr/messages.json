@@ -1,0 +1,15 @@
+{
+  "extensionName": {
+    "message": "Documentation Symfony: Sélecteur de version"
+  },
+  "extensionDescription": {
+    "message": "Forcer la version à utiliser pour la documentation Symfony"
+  },
+  "enabled": {
+    "message": "Activée",
+    "description": "féminin"
+  },
+  "version": {
+    "message": "Version"
+  }
+}

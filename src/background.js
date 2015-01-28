@@ -61,7 +61,7 @@ var createContextMenus = function () {
         {
             type: 'checkbox',
             checked: config.enabled,
-            title: "Enabled",
+            title: chrome.i18n.getMessage('enabled'),
             contexts: ['page_action'],
             onclick: function (info) {
                 setEnabled(info.checked);
@@ -74,7 +74,7 @@ var createContextMenus = function () {
      */
     var parentId = chrome.contextMenus.create(
         {
-            title: "Version",
+            title: chrome.i18n.getMessage('version'),
             contexts: ['page_action']
         }
     );
