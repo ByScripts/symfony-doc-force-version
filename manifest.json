@@ -1,7 +1,8 @@
 {
   "name": "__MSG_extensionName__",
+  "short_name": "Sf Doc Version",
   "description": "__MSG_extensionDescription__",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "manifest_version": 2,
   "homepage_url": "https://github.com/ByScripts/symfony-doc-force-version",
   "author" : "Thierry Goettelmann <thierry@byscripts.info>",
@@ -30,8 +31,6 @@
     "contextMenus",
     "storage",
     "tabs",
-    "webRequest",
-    "webRequestBlocking",
     "http://symfony.com/*"
   ]
 }
