@@ -1,7 +1,7 @@
-var currentVersion = '2.6';
+var currentVersion = '2.7';
 
 var aliases = {
-    '2.6': 'current',
+    '2.7': 'current',
     '3.0': 'master'
 };
 
@@ -9,11 +9,11 @@ var versions = [
     {name: '2.0', title: '2.0'},
     {name: '2.1', title: '2.1'},
     {name: '2.2', title: '2.2'},
-    {name: '2.3', title: '2.3 LTS'},
+    {name: '2.3', title: '2.3'},
     {name: '2.4', title: '2.4'},
     {name: '2.5', title: '2.5'},
-    {name: '2.6', title: '2.6 (current)'},
-    {name: '2.7', title: '2.7 LTS (dev)'},
+    {name: '2.6', title: '2.6'},
+    {name: '2.7', title: '2.7 LTS (current)'},
     {name: '3.0', title: '3.0 (master)'}
 ];
 
